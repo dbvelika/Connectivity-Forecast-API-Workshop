@@ -25,3 +25,16 @@ Separação em controllers, services, repositories, modelos de domínio/DTOs e c
 ## Documentação
 
 README e OpenAPI são pontos de partida. Completar em exercício: descrição dos endpoints, parâmetros e validações, exemplos de requisição/resposta, códigos de erro e origem dos campos. Referência à licença MIT da API de origem preservada neste projeto.
+
+## Limitações conhecidas
+- O catálogo e as previsões são carregados de fixtures estáticas (`data/models.json` e
+ `data/predictions.csv`); não são dados de rede ao vivo.
+- A API não consulta RIPE Atlas nem outra fonte externa em tempo real.
+- O código não treina nem executa modelos de machine learning: os resultados retornados são
+ baseados nos dados de exemplo fornecidos.
+- A classificação de qualidade e as recomendações são regras experimentais, não padrões
+ científicos nem garantias de desempenho real da conexão.
+- Não há banco de dados. O projeto é um artefato educacional local e não deve ser
+ interpretado como serviço de monitoramento de conectividade pronto para produção.
+A fixture contém 4 modelos ativos, 10 probes e 24 instantes (960 previsões); o catálogo
+ também contém um modelo inativo. Todos os dados são fictícios.
