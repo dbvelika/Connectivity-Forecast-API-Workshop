@@ -1,0 +1,6 @@
+com\brazcubas\apsii\service\ModelServiceTest.class
+com\brazcubas\apsii\service\QualityClassifierBoundaryTest.class
+com\brazcubas\apsii\service\QualityClassifierTest.class
+com\brazcubas\apsii\repository\CsvForecastRepositoryConfidenceTest.class
+com\brazcubas\apsii\ApiContractTest.class
+com\brazcubas\apsii\service\DateTimeUtilsTest.class
